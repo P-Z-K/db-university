@@ -4,6 +4,8 @@
 #include <iostream>
 #include <regex>
 
+using namespace Validator;
+
 #pragma region Public_Methods
 int Validator::GetInteger(const std::string& text, const std::regex& regex)
 {
