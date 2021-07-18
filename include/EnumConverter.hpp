@@ -2,11 +2,10 @@
 
 #include "Program.hpp"
 
-class EnumConverter
+namespace EnumConverter
 {
-public:
-	static Gender UserInputToGender(int input);
-	static SortOption UserInputToSortOption(int input);
-	static SearchOption UserInputToSearchOption(int input);
+	Gender UserInputToGender(int input);
+	SortOption UserInputToSortOption(int input);
+	SearchOption UserInputToSearchOption(int input);
 };
 

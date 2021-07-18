@@ -1,5 +1,7 @@
 #include "EnumConverter.hpp"
 
+using namespace EnumConverter;
+
 #pragma region Public_Methods
 Gender EnumConverter::UserInputToGender(int input)
 {
