@@ -3,6 +3,8 @@
 #include <iostream>
 #include <limits>
 
+using namespace Console;
+
 void Console::FlushBuffer()
 {
 	std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');

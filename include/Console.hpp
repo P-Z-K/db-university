@@ -1,9 +1,8 @@
 #pragma once
 
-class Console
+namespace Console
 {
-public:
-	static void FlushBuffer();
-	static void Clear();
-	static void WaitUntilUserPressEnter();
+	void FlushBuffer();
+	void Clear();
+	void WaitUntilUserPressEnter();
 };
