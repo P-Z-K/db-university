@@ -7,7 +7,6 @@
 
 namespace Utils
 {
-
 	std::string StrToLower(const std::string& str);
 	std::string StrToLower(std::string&& str);
 
@@ -20,7 +19,7 @@ namespace Utils
 	bool SortStudentsByLastName(const Student& lhs,
 		const Student& rhs);
 
-	static bool(*SearchStudentBy(SearchOption searchOption))(const Student&, const std::string&);
-	static bool(*SortStudentsBy(SortOption sortOption))(const Student&, const Student&);
+	bool(*SearchStudentBy(SearchOption searchOption))(const Student&, const std::string&);
+	bool(*SortStudentsBy(SortOption sortOption))(const Student&, const Student&);
 };
 
