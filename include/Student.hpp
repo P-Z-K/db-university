@@ -22,11 +22,15 @@ private:
 	std::string pesel_{};
 	Gender gender_{ Gender::Error };
 
+	static std::string GenderToText(Gender g);
+
 public:
 	Student() = default;
 	Student(std::string firstName, std::string lastName,
 		Address address, std::string gradeNumber,
 		std::string pesel, Gender gender);
+
+	friend std::ostream& operator<< (std::ostream& out, const Student& s);
 
 #pragma region Getters_and_Setters
 	std::string GetFirstName() const { return firstName_; }
