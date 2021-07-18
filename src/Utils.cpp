@@ -3,6 +3,8 @@
 #include <algorithm>
 #include <iostream>
 
+using namespace Utils;
+
 #pragma region Public_Methods
 bool(*Utils::SearchStudentBy(SearchOption searchOption))(const Student&, const std::string&)
 {
