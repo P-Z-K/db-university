@@ -142,6 +142,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="include\Address.hpp" />
     <ClInclude Include="include\Console.hpp" />
     <ClInclude Include="include\EnumConverter.hpp" />
     <ClInclude Include="include\IDatabase.hpp" />
