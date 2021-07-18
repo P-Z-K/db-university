@@ -1,12 +1,11 @@
 #pragma once
 
 
-class UserInterface
+namespace UserInterface
 {
-public:
-	static void ShowMainMenu();
-	static void ShowSortMenu();
-	static void ShowSearchMenu();
-	static void ShowGenderMenu();
+	void ShowMainMenu();
+	void ShowSortMenu();
+	void ShowSearchMenu();
+	void ShowGenderMenu();
 };
 
